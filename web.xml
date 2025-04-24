@@ -2,11 +2,7 @@
 <testsuite name="com.example.MyTestClass" tests="100" failures="10" errors="0" skipped="30" timestamp="2025-04-23T10:00:00" time="12.345">
   <testcase classname="com.example.MyTestClass" name="testMethod0" time="0.123"/>
   <testcase classname="com.example.MyTestClass" name="testMethod1" time="0.123"/>
-    <testcase classname="com.example.MyTestClass" name="ffffrwee" time="0.123"/>
-      <testcase classname="com.example.MyTestClass" name="testMethcfffffod1" time="0.123"/>
-  <testcase classname="com.example.MyTestClass" name="testMethod3" time="0.123"/>
-  <testcase classname="com.example.MyTestClass" name="testMethod4" time="0.123"/>
-  <testcase classname="com.example.MyTestClass" name="testMethod622" time="0.123"/>
+  <testcase classname="com.example.MyTestClass" name="testMethod6" time="0.123"/>
   <testcase classname="com.example.MyTestClass" name="testMethod15" time="0.123"/>
   <testcase classname="com.example.MyTestClass" name="testMethod21" time="0.123">
     <failure message="Test failed" type="AssertionError">	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
@@ -23,13 +19,53 @@
   <testcase classname="com.example.MyTestClass" name="testMethod22" time="0.123">
     <skipped/>
   </testcase>
- 
-  
+  <testcase classname="com.example.MyTestClass" name="testMethod23" time="0.123">
+  </testcase>
+  <testcase classname="com.example.MyTestClass" name="testMethod24" time="0.123">
+  </testcase>
+  <testcase classname="com.example.MyTestClass" name="testMethod25" time="0.123">
+  </testcase>
+  <testcase classname="com.example.MyTestClass" name="testMethod29" time="0.123">
+  </testcase>
+  <testcase classname="com.example.MyTestClass" name="testMethod30" time="0.123"/>
+  <testcase classname="com.example.MyTestClass" name="testMethod31" time="0.123">
+    <failure message="Test failed" type="AssertionError">	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)</failure>
+  </testcase>
   <testcase classname="com.example.MyTestClass" name="testMethod32" time="0.123"/>
   <testcase classname="com.example.MyTestClass" name="testMethod36" time="0.123"/>
-  
+  <testcase classname="com.example.MyTestClass" name="testMethod37" time="0.123">
+    <failure message="Test failed" type="AssertionError">	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at com.example.MyTestClass.testMethod(MyTestClass.java:42)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)</failure>
+  </testcase>
   <testcase classname="com.example.MyTestClass" name="testMethod38" time="0.123"/>
   <testcase classname="com.example.MyTestClass" name="testMethod39" time="0.123">
+    <failure message="Test failed" type="AssertionError">	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)</failure>
   </testcase>
   <testcase classname="com.example.MyTestClass" name="testMethod40" time="0.123"/>
   <testcase classname="com.example.MyTestClass" name="testMethod41" time="0.123">
@@ -58,7 +94,16 @@ java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;
   </testcase>
   <testcase classname="com.example.MyTestClass" name="testMethod46" time="0.123"/>
   <testcase classname="com.example.MyTestClass" name="testMethod47" time="0.123">
-   
+    <failure message="Test failed" type="AssertionError">java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at com.example.MyTestClass.testMethod(MyTestClass.java:42)</failure>
   </testcase>
   <testcase classname="com.example.MyTestClass" name="testMethod48" time="0.123"/>
   <testcase classname="com.example.MyTestClass" name="testMethod51" time="0.123">
@@ -70,6 +115,16 @@ java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;
   </testcase>
   <testcase classname="com.example.MyTestClass" name="testMethod55" time="0.123"/>
   <testcase classname="com.example.MyTestClass" name="testMethod56" time="0.123">
+    <failure message="Test failed" type="AssertionError">	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</failure>
   </testcase>
   <testcase classname="com.example.MyTestClass" name="testMethod57" time="0.123"/>
   <testcase classname="com.example.MyTestClass" name="testMethod67" time="0.123">
@@ -92,6 +147,13 @@ java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</failure>
   </testcase>
   <testcase classname="com.example.MyTestClass" name="testMethod73" time="0.123"/>
+  <testcase classname="com.example.MyTestClass" name="testMethod74" time="0.123"/>
+  <testcase classname="com.example.MyTestClass" name="testMethod79" time="0.123">
+  </testcase>
+  <testcase classname="com.example.MyTestClass" name="testMethod80" time="0.123"/>
+  <testcase classname="com.example.MyTestClass" name="testMethod81" time="0.123"/>
+  <testcase classname="com.example.MyTestClass" name="testMethod82" time="0.123">
+  </testcase>
   <testcase classname="com.example.MyTestClass" name="testMethod83" time="0.123">
   </testcase>
   <testcase classname="com.example.MyTestClass" name="testMethod84" time="0.123">

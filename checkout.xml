@@ -2,12 +2,10 @@
 <testsuite name="com.example.MyTestClass" tests="100" failures="10" errors="0" skipped="30" timestamp="2025-04-23T10:00:00" time="12.345">
   <testcase classname="com.example.MyTestClass" name="testMethod0" time="0.123"/>
   <testcase classname="com.example.MyTestClass" name="testMethod1" time="0.123"/>
-    <testcase classname="com.example.MyTestClass" name="ffffrwee" time="0.123"/>
-      <testcase classname="com.example.MyTestClass" name="testMethcfffffod1" time="0.123"/>
   <testcase classname="com.example.MyTestClass" name="testMethod3" time="0.123"/>
-  <testcase classname="com.example.MyTestClass" name="testMethod4" time="0.123"/>
-  <testcase classname="com.example.MyTestClass" name="testMethod622" time="0.123"/>
-  <testcase classname="com.example.MyTestClass" name="testMethod15" time="0.123"/>
+  <testcase classname="com.example.MyTestClass" name="testMethod344" time="0.123"/>
+  <testcase classname="com.example.MyTestClass" name="testMethod6" time="0.123"/>
+  <testcase classname="com.example.MyTestClass" name="testMethod33315" time="0.123"/>
   <testcase classname="com.example.MyTestClass" name="testMethod21" time="0.123">
     <failure message="Test failed" type="AssertionError">	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
@@ -26,12 +24,11 @@
  
   
   <testcase classname="com.example.MyTestClass" name="testMethod32" time="0.123"/>
-  <testcase classname="com.example.MyTestClass" name="testMethod36" time="0.123"/>
+  <testcase classname="com.example.MyTestClass" name="testMethod2236" time="0.123"/>
   
-  <testcase classname="com.example.MyTestClass" name="testMethod38" time="0.123"/>
+  <testcase classname="com.example.MyTestClass" name="testMetho5444d38" time="0.123"/>
   <testcase classname="com.example.MyTestClass" name="testMethod39" time="0.123">
   </testcase>
-  <testcase classname="com.example.MyTestClass" name="testMethod40" time="0.123"/>
   <testcase classname="com.example.MyTestClass" name="testMethod41" time="0.123">
     <failure message="Test failed" type="AssertionError">	at com.example.MyTestClass.testMethod(MyTestClass.java:42)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -103,7 +100,6 @@ java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;
   <testcase classname="com.example.MyTestClass" name="testMethod88" time="0.123">
   </testcase>
   <testcase classname="com.example.MyTestClass" name="testMethod89" time="0.123"/>
-  <testcase classname="com.example.MyTestClass" name="testMethod90" time="0.123"/>
   <testcase classname="com.example.MyTestClass" name="testMethod91" time="0.123"/>
   <testcase classname="com.example.MyTestClass" name="testMethod92" time="0.123">
   </testcase>
